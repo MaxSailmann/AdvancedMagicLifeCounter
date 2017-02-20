@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/iv_ltutorial_imageactual"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/activity_vertical_margin_small">
+
+        <TextView
+            android:id="@+id/tv_ltutorial_actual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:maxLines="2"
+            android:text="@string/about"
+            android:background="@color/light_gray"/>
+
+        <TextView
+            android:id="@+id/tv_ltutorial_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:maxLines="2"
+            android:background="@color/light_gray"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <ImageButton
+            android:id="@+id/ib_ltutorial_rew"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_rew" />
+
+        <TextView
+            android:id="@+id/tv_ltutorial_page"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4        "
+            android:gravity="center" />
+
+        <ImageButton
+            android:id="@+id/ib_ltutorial_ff"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_media_ff" />
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/b_ltutorial_guide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="@string/howtoplay" />
+
+</LinearLayout>

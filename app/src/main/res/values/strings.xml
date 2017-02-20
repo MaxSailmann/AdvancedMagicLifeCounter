@@ -1,0 +1,162 @@
+<resources>
+
+    <!-- Lable -->
+    <string name="app_name">AdvancedMagicLifeCounter</string>
+
+    <!-- MainScreen -->
+    <string name="title">Advanced Magic Life Counter</string>
+    <string name="start">START</string>
+    <string name="statistic">STATISTIC</string>
+    <string name="tutorial">TUTORIAL</string>
+
+
+    <!-- Game -->
+    <string name="deleteMana">Click again to delete Mana</string>
+    <string name="saveGame">Save Game?</string>
+    <string name="addGameToStatistic">Add Game to Statistic?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="clickBackAgain">Click BACK again to exit</string>
+
+    <!-- GameMenue -->
+    <string name="RollFromTo">Roll from 1 to </string>
+    <string name="Finished">Finished!</string>
+    <string name="web_search">Enter Card Name for Web Search</string>
+    <string name="dice_roll">Roll Dice For ...</string>
+    <string name="coin_flip">Flip Coin For ...</string>
+    <string name="all">All Player</string>
+    <string name="one">One Player</string>
+    <string name="enter_name">Enter Name Here</string>
+    <string name="search_card">Search Card</string>
+    <string name="rollfrom1to6">Roll from 1 to 6</string>
+
+    <!-- Settings -->
+    <string name="clickShuffleAgain">Click again to shuffle teams</string>
+    <string name="lifepoints">Start lifepoints</string>
+    <string name="mode">Game mode</string>
+    <string name="time">Time limit</string>
+    <string name="numberOfPlayers">Number of players</string>
+    <string name="shuffle">Shuffle Teams</string>
+
+    <!-- Statistic -->
+    <string name="warning">Warning!</string>
+    <string name="deleteStatistic">Delete Statistic?</string>
+    <string name="deleteGame">Delete Game?</string>
+    <string name="delete">Delete</string>
+    <string name="gameduration">Avg Game Duration:</string>
+    <string name="gamesplayed">Total Games Played:</string>
+    <string name="mostcolores">Most Played Colores</string>
+    <string name="gamelist">Games Played</string>
+    <string name="date">Date</string>
+
+    <!-- StatisticInfo -->
+    <string name="team1">Team 1</string>
+    <string name="team2">Team 2</string>
+    <string name="team3">Team 3</string>
+    <string name="team4">Team 4</string>
+    <string name="life">Life</string>
+    <string name="name">Name</string>
+    <string name="poison">Poison</string>
+    <string name="result">Result</string>
+    <string name="players">Players</string>
+    <string name="gameinfo">GAME INFO</string>
+    <string name="gamedetail">Date:\nStart-Time:\nEnd-Time:\nDuration:\nGame-Mode:\nTime Limit:</string>
+
+    <!-- MyAdapter -->
+    <string name="_2v2">2v2</string>
+    <string name="_2v2v2">2v2v2</string>
+    <string name="_2v2v2v2">2v2v2v2</string>
+    <string name="_3v3">3v3</string>
+    <string name="_3v3v3">3v3v3</string>
+    <string name="_4v4">4v4</string>
+    <string name="_VS">VS</string>
+
+    <!-- MyBluetooth -->
+    <string name="canNotContiniueWOBluetooth">Can not continue without Bluetooth</string>
+    <string name="pleaseSelectGames">No games selected</string>
+    <string name="connectedTo">Connected to: </string>
+    <string name="connecting">Connecting...</string>
+    <string name="notConnected">Not connected!</string>
+    <string name="gameAdded">Added game to statistic</string>
+    <string name="availableBluetoothDevices">Available Bluetooth-Devices</string>
+    <string name="noPairedDevicesAvailable">No paired devices available</string>
+    <string name="yourDeviceMayNotBeFound">Your device may not be found by others</string>
+    <string name="noConnection">No connection...</string>
+    <string name="noDevicesFound">No devices found</string>
+    <string name="selectgames">Select Games to Share</string>
+    <string name="connect">Connect to Device</string>
+    <string name="share">Share Games</string>
+
+    <!-- MyBluetoothAdapter -->
+    <string name="pairedDevices">Paired devices</string>
+    <string name="discoveredDevices">Discovered devices</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- MyBluetoothController -->
+    <string name="unableToConnectDevice">Unable to connect device</string>
+    <string name="deviceConnectionWasLost">Device connection was lost</string>
+
+    <!-- UndoBuffer -->
+    <string name="canNotGoBackwards">Can not go backwards</string>
+    <string name="canNotGoForewards">Can not go forewards</string>
+    <string name="lifePoints">Lifepoints </string>
+    <string name="energyCounter">Energy-Counter </string>
+    <string name="poisonCounter">Poison-Counter </string>
+
+    <!-- Tutorial -->
+    <string name="tutorial1">Click here to \nstart a new game</string>
+    <string name="tutorial2">Click here to \nopen the statistic</string>
+    <string name="tutorial3">Click here to \nopen the tutorial</string>
+    <string name="tutorial4">Set players lifepoints\n</string>
+    <string name="tutorial5">Set a time limit\n</string>
+    <string name="tutorial6">Select the number of players\n</string>
+    <string name="tutorial7">Select the game mode\ndepending on number of players</string>
+    <string name="tutorial8">Choose a Name and Deck\nfor each player (optional)</string>
+    <string name="tutorial9">This is the selected player\nor team, displayed below</string>
+    <string name="tutorial10">This button opens the game menue\n</string>
+    <string name="tutorial11">Here you can see the time limit\n</string>
+    <string name="tutorial12">These buttons can be used for\nundo and redo the last inputs</string>
+    <string name="tutorial13">Poison counter\n</string>
+    <string name="tutorial14">Lifepoints\n</string>
+    <string name="tutorial15">Energy counter\n</string>
+    <string name="tutorial16">Additional counter (e.g. mana)\nCan be hidden if not used</string>
+    <string name="tutorial17">Game menue: \nSimulate dices</string>
+    <string name="tutorial18">Game menue: \nFlip coins</string>
+    <string name="tutorial19">Game menue: \nWeb search for specific card</string>
+    <string name="tutorial20">Save the game result if you want\n</string>
+    <string name="tutorial21">Summary of all games\n</string>
+    <string name="tutorial22">Click to open details of the selected game\n</string>
+    <string name="howtoplay">How to Play \nMagic: The Gathering</string>
+    <string name="about">About This App\n</string>
+
+    <!-- Layouts -->
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="player3">Player 3</string>
+    <string name="player4">Player 4</string>
+    <string name="player5">Player 5</string>
+    <string name="player6">Player 6</string>
+    <string name="player7">Player 7</string>
+    <string name="player8">Player 8</string>
+    <string name="player9">Player 9</string>
+
+    <string name="playername">Player Name</string>
+    <string name="websearch">WEB SEARCH</string>
+    <string name="dice">DICE</string>
+    <string name="coin">COIN</string>
+    <string name="search">WEB</string>
+    <string name="undo">UNDO</string>
+    <string name="redo">REDO</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="deckcolor">Deck Color</string>
+
+    <string name="zero">0</string>
+    <string name="minus">-</string>
+    <string name="plus">+</string>
+    <string name="minus1">-1</string>
+    <string name="plus1">+1</string>
+    <string name="minus5">-5</string>
+    <string name="plus5">+5</string>
+
+
+</resources>

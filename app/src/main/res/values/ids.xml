@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="radiobutton_vs" type="id"/>
+    <item name="radiobutton_2v2" type="id"/>
+    <item name="radiobutton_2v2v2" type="id"/>
+    <item name="radiobutton_3v3" type="id"/>
+    <item name="radiobutton_2v2v2v2" type="id"/>
+    <item name="radiobutton_4v4" type="id"/>
+    <item name="radiobutton_3v3v3" type="id"/>
+
+</resources>

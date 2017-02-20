@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.sailmann.max.advancedmagiclifecounter">
+
+    <application
+        android:name=".Globals"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity
+            android:name=".ActivityMainScreen"
+            android:screenOrientation="portrait">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityStatistic"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".ActivitySettings"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan">
+
+        </activity>
+        <activity
+            android:name=".ActivityGameMultiplayer"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".ActivityGame2Player"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".ActivityGameMenue"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.PopUp">
+
+        </activity>
+        <activity
+            android:name=".ActivityStatisticInfo"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.PopUp">
+
+        </activity>
+
+        <activity
+            android:name=".ActivityTutorial"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+
+        <activity
+            android:name=".ActivityBluetooth"
+            android:screenOrientation="portrait" >
+
+
+        </activity>
+
+
+    </application>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+</manifest>

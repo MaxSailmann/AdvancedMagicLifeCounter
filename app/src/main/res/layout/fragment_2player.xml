@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_lgame_name2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="@string/playername"
+            android:textSize="30sp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            android:orientation="horizontal">
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_lgame_poison2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:maxLines="1"
+                    android:text="@string/zero"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+
+                <Button
+                    android:id="@+id/b_lgame_poisonminus2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/tv_lgame_poison2"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="@string/minus" />
+
+                <Button
+                    android:id="@+id/b_lgame_poisonplus2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_above="@id/tv_lgame_poison2"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="@string/plus" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+
+                <ImageView
+                    android:id="@+id/iv_lgame_poison2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingRight="@dimen/activity_horizontal_margin"
+                    android:src="@drawable/counter_poison" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+
+                <TextView
+                    android:id="@+id/tv_lgame_dummy2"
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:layout_centerInParent="true" />
+
+                <TextView
+                    android:id="@+id/tv_lgame_lifepoints2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="@string/zero"
+                    android:textColor="@color/black"
+                    android:textSize="60sp" />
+
+                <Button
+                    android:id="@+id/b_lgame_lifeminus2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/tv_lgame_lifepoints2"
+                    android:layout_toLeftOf="@id/tv_lgame_dummy2"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="@string/minus1" />
+
+                <Button
+                    android:id="@+id/b_lgame_lifeminus5_2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/tv_lgame_lifepoints2"
+                    android:layout_toRightOf="@id/tv_lgame_dummy2"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="@string/minus5" />
+
+                <Button
+                    android:id="@+id/b_lgame_lifeplus5_2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_above="@id/tv_lgame_lifepoints2"
+                    android:layout_toRightOf="@id/tv_lgame_dummy2"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="@string/plus5" />
+
+                <Button
+                    android:id="@+id/b_lgame_lifeplus2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="@string/plus1"
+
+                    android:layout_above="@id/tv_lgame_lifepoints2"
+                    android:layout_toLeftOf="@id/tv_lgame_dummy2"
+                    android:layout_toStartOf="@+id/tv_lgame_dummy2"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_lgame_energy2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:paddingLeft="@dimen/activity_horizontal_margin"
+                    android:src="@drawable/counter_energy" />
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_lgame_energy2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:maxLines="1"
+                    android:text="@string/zero"
+                    android:textColor="@color/black"
+                    android:textSize="40sp" />
+
+                <Button
+                    android:id="@+id/b_lgame_energyminus2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@id/tv_lgame_energy2"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="@string/minus" />
+
+                <Button
+                    android:id="@+id/b_lgame_energyplus2"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_above="@+id/tv_lgame_energy2"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/button"
+                    android:gravity="center"
+                    android:text="@string/plus" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/activity_vertical_margin_small">
+
+            <TextView
+                android:id="@+id/tv_lgame_slideout2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_media_ff" />
+
+            <LinearLayout
+                android:id="@+id/ll_lgame_manacounter2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="14">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:paddingLeft="@dimen/activity_horizontal_margin_verysmall">
+
+
+                    <TextView
+                        android:id="@+id/tv_lgame_colorless2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="@dimen/manacounter"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/color_colorless_2d"
+                        android:gravity="center"
+                        android:text="@string/zero"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_colorlessplus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_lgame_colorless2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_up_float" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_colorlessminus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_lgame_colorless2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_down_float" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:paddingLeft="@dimen/activity_horizontal_margin_verysmall">
+
+
+                    <TextView
+                        android:id="@+id/tv_lgame_white2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="@dimen/manacounter"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/color_white_2d"
+                        android:gravity="center"
+                        android:text="@string/zero"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_whiteplus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_lgame_white2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_up_float" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_whiteminus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_lgame_white2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_down_float" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:paddingLeft="@dimen/activity_horizontal_margin_verysmall">
+
+
+                    <TextView
+                        android:id="@+id/tv_lgame_blue2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="@dimen/manacounter"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/color_blue_2d"
+                        android:gravity="center"
+                        android:text="@string/zero"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_blueplus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_lgame_blue2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_up_float" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_blueminus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_lgame_blue2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_down_float" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:paddingLeft="@dimen/activity_horizontal_margin_verysmall">
+
+
+                    <TextView
+                        android:id="@+id/tv_lgame_black2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="@dimen/manacounter"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/color_black_2d"
+                        android:gravity="center"
+                        android:text="@string/zero"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_blackplus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_lgame_black2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_up_float" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_blackminus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_lgame_black2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_down_float" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:paddingLeft="@dimen/activity_horizontal_margin_verysmall">
+
+
+                    <TextView
+                        android:id="@+id/tv_lgame_red2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="@dimen/manacounter"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/color_red_2d"
+                        android:gravity="center"
+                        android:text="@string/zero"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_redplus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_lgame_red2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_up_float" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_redminus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_lgame_red2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_down_float" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:paddingLeft="@dimen/activity_horizontal_margin_verysmall">
+
+
+                    <TextView
+                        android:id="@+id/tv_lgame_green2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="@dimen/manacounter"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/color_green_2d"
+                        android:gravity="center"
+                        android:text="@string/zero"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_greenplus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@id/tv_lgame_green2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_up_float" />
+
+                    <TextView
+                        android:id="@+id/tv_lgame_greenminus2"
+                        android:layout_width="@dimen/manacounter"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_lgame_green2"
+                        android:layout_centerHorizontal="true"
+                        android:background="@android:drawable/arrow_down_float" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@+id/tv_lgame_delete2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:background="@android:drawable/ic_delete"
+                        android:gravity="center" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_lgame_slidein2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:drawable/ic_media_rew"
+                android:visibility="invisible"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>

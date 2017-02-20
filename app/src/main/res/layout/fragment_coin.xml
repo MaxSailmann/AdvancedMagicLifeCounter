@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/tv_fcoin_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="@dimen/activity_horizontal_margin_verysmall"
+            android:text="@string/coin_flip" />
+
+        <RadioGroup
+            android:id="@+id/rg_fcoin_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_fcoin_one"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="@string/one" />
+
+            <RadioButton
+                android:id="@+id/rb_fcoin_all"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/all" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_fcoin_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/fl_fcoin_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingBottom="@dimen/activity_vertical_margin_small"
+            android:paddingLeft="@dimen/activity_horizontal_margin_small"
+            android:paddingRight="@dimen/activity_horizontal_margin_small"
+            android:paddingTop="@dimen/activity_vertical_margin_small">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_fcoin_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fl_fcoin_5"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="@dimen/activity_vertical_margin_small"
+            android:paddingLeft="@dimen/activity_horizontal_margin_small"
+            android:paddingRight="@dimen/activity_horizontal_margin_small"
+            android:paddingTop="@dimen/activity_vertical_margin_small">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_fcoin_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_fcoin_5"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="@dimen/activity_vertical_margin_small"
+            android:paddingLeft="@dimen/activity_horizontal_margin_small"
+            android:paddingRight="@dimen/activity_horizontal_margin_small"
+            android:paddingTop="@dimen/activity_vertical_margin_small">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_fcoin_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fl_fcoin_4"
+            android:layout_toLeftOf="@id/fl_fcoin_2"
+            android:paddingBottom="@dimen/activity_vertical_margin_small"
+            android:paddingLeft="@dimen/activity_horizontal_margin_small"
+            android:paddingRight="@dimen/activity_horizontal_margin_small"
+            android:paddingTop="@dimen/activity_vertical_margin_small">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_fcoin_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/fl_fcoin_5"
+            android:paddingBottom="@dimen/activity_vertical_margin_small"
+            android:paddingLeft="@dimen/activity_horizontal_margin_small"
+            android:paddingRight="@dimen/activity_horizontal_margin_small"
+            android:paddingTop="@dimen/activity_vertical_margin_small">
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/fl_fcoin_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/fl_fcoin_5"
+            android:paddingBottom="@dimen/activity_vertical_margin_small"
+            android:paddingLeft="@dimen/activity_horizontal_margin_small"
+            android:paddingRight="@dimen/activity_horizontal_margin_small"
+            android:paddingTop="@dimen/activity_vertical_margin_small">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_fcoin_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/fl_fcoin_6"
+            android:layout_toRightOf="@+id/fl_fcoin_2"
+            android:paddingBottom="@dimen/activity_vertical_margin_small"
+            android:paddingLeft="@dimen/activity_horizontal_margin_small"
+            android:paddingRight="@dimen/activity_horizontal_margin_small"
+            android:paddingTop="@dimen/activity_vertical_margin_small">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_fcoin_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_fcoin_4"
+            android:layout_toLeftOf="@+id/fl_fcoin_8"
+            android:paddingBottom="@dimen/activity_vertical_margin_small"
+            android:paddingLeft="@dimen/activity_horizontal_margin_small"
+            android:paddingRight="@dimen/activity_horizontal_margin_small"
+            android:paddingTop="@dimen/activity_vertical_margin_small">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_fcoin_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_fcoin_6"
+            android:layout_toRightOf="@+id/fl_fcoin_8"
+            android:paddingBottom="@dimen/activity_vertical_margin_small"
+            android:paddingLeft="@dimen/activity_horizontal_margin_small"
+            android:paddingRight="@dimen/activity_horizontal_margin_small"
+            android:paddingTop="@dimen/activity_vertical_margin_small">
+
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
